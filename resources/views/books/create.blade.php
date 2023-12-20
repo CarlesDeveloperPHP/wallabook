@@ -1,8 +1,8 @@
 @extends('layouts.plantillaForms')
 
-@extends('title', 'wellcome')
+@section('title', 'create')
 
 @section('content')
-    <h1>creamos libro</h1>
+    <h1>creamos libro con plantilla</h1>
 @endsection
 

@@ -17,6 +17,6 @@ class BookController extends Controller
     public function show($libro){
         
         //return view('books.show', ['libro' => $libro]); Es lo mismo que compact pero han de coincidir el nombre de la variable
-        return view('books.show', compact('libro'));
+        return view('books.show', ['libro'=> $libro]);
     }
 }
