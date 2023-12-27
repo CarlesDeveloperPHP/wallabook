@@ -14,7 +14,7 @@ class Libros extends Migration
         Schema::create('libros', function(Blueprint $table){
             $table->id();
             $table->string('codigo');
-            $table->string('marca');
+            $table->string('titulo');
             $table->string('observaciones');
             $table->string('curso');    
             $table->timestamps();
